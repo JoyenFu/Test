@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World 分支v3!B" );
+        System.out.println( "Hello World 分支v3!BC" );
     }
 }
