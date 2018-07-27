@@ -3,13 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.yto</groupId>
+    <groupId>com.fwj</groupId>
     <artifactId>test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.yto</groupId>
   <artifactId>testsub1</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>testsub1</name>
   <url>http://maven.apache.org</url>
   <properties>
