@@ -10,8 +10,22 @@
   <modules>
     <module>testsub1</module>
     <module>testsub2</module>
+    <module>spring-cloud-task</module>
   </modules>
-  
+  <parent>
+       <groupId>org.springframework.boot</groupId>
+       <artifactId>spring-boot-starter-parent</artifactId>
+       <version>1.5.9.RELEASE</version>
+       <relativePath/> <!-- lookup parent from repository -->
+   </parent>
+   
+   <dependencies>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+        </dependency>
+   </dependencies>
+    
   <build>  
       <plugins>  
           <plugin>  
