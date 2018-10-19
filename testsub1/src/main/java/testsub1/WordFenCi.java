@@ -9,7 +9,7 @@ public class WordFenCi {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        List<Word> words = WordSegmenter.segWithStopWords("上海上海市浦东新区国际中心");
+        List<Word> words = WordSegmenter.segWithStopWords("上海上海市浦东新区国际中心(A3-2)");
         System.out.println(words);
     }
 
