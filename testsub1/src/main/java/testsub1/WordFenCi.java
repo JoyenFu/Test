@@ -21,6 +21,7 @@ public class WordFenCi {
         //System.out.println(nameWords);
         
         System.out.println("陕西省西安市".indexOf("西安市"));
+        
     }
 
 }

@@ -29,7 +29,7 @@
         <groupId>com.google.code.gson</groupId>
         <artifactId>gson</artifactId>
     </dependency>
-    
+     
     <!-- https://mvnrepository.com/artifact/org.apdplat/word -->
     <dependency>
         <groupId>org.apdplat</groupId>
