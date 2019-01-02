@@ -14,7 +14,7 @@ public class WordFenCi {
         // 严格18233333333上海上海市浦东新区管委会
         // 严格18233333333上海上海市浦东新区国际中心
         //付文军18233333333陕西省西安市雁塔区大寨路99号宏府麒麟山9号楼2单元
-        List<Word> words = WordSegmenter.segWithStopWords("段茵15249047756西安软件新城软件研发基地2期（A3-2）",SegmentationAlgorithm.MinimalWordCount);
+        List<Word> words = WordSegmenter.segWithStopWords("收货人：段茵手机号码15249047756所在地区：上海上海市青浦区华新镇详细地址：华隆路1790号",SegmentationAlgorithm.MaximumMatching);
         //words = WordRefiner.refine(words);
         //List<Word> nameWords = PersonName.recognize(words);
         System.out.println(words);

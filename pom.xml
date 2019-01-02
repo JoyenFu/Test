@@ -11,7 +11,6 @@
     <module>testsub1</module>
     <module>testsub2</module>
     <module>spring-cloud-task</module>
-    <module>elastic-job</module>
   </modules>
   <parent>
        <groupId>org.springframework.boot</groupId>
