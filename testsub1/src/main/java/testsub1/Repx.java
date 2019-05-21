@@ -6,20 +6,27 @@ import java.util.regex.Pattern;
 public class Repx {
 
     public static void main(String[] args) {
-        System.out.println("008618966662222".matches("(\\+?0?0?86-?)?1\\d{10}"));
-        Pattern patTel = Pattern.compile("(\\+?0?0?86-?)?1\\d{10}");
-        Matcher matcher = patTel.matcher("罗贤治008618966662222雁塔区");
+//        System.out.println("008618966662222".matches("(\\+?0?0?86-?)?1\\d{10}"));
+//        Pattern patTel = Pattern.compile("(\\+?0?0?86-?)?1\\d{10}");
+//        Matcher matcher = patTel.matcher("罗贤治008618966662222雁塔区");
+//        if(matcher.find()){
+//            System.out.println(matcher.group(0));
+//        }
+//        
+//        
+//        System.out.println("======");
+//        System.out.println("029-88889999".matches("((0\\d{2})?-?\\d{8}(-?\\d{1,4})?)|((0\\d{3})?-?\\d{7,8}(-?\\d{1,4})?)"));
+//        Pattern patTel2 = Pattern.compile("((0\\d{2})?-?\\d{8}(-?\\d{1,4})?)|((0\\d{3})?-?\\d{7,8}(-?\\d{1,4})?)");
+//        Matcher matcher2 = patTel2.matcher("029-88889999-0310");
+//        if(matcher2.find()){
+//            System.out.println(matcher2.group(0));
+//        }
+        
+        System.out.println("浙江省宁波市海曙区石碶街道冯家村双江岸新特工业园进门右边三楼仓库部 收件人：唐川 号码：19906744702".matches("\\s+收件人：\\s+ 号码：\\d+"));
+        Pattern patTel = Pattern.compile("[\\d+-]{7,19}");
+        Matcher matcher = patTel.matcher("打着小肉肉137675798123");
         if(matcher.find()){
             System.out.println(matcher.group(0));
-        }
-        
-        
-        System.out.println("======");
-        System.out.println("029-88889999".matches("((0\\d{2})?-?\\d{8}(-?\\d{1,4})?)|((0\\d{3})?-?\\d{7,8}(-?\\d{1,4})?)"));
-        Pattern patTel2 = Pattern.compile("((0\\d{2})?-?\\d{8}(-?\\d{1,4})?)|((0\\d{3})?-?\\d{7,8}(-?\\d{1,4})?)");
-        Matcher matcher2 = patTel2.matcher("029-88889999-0310");
-        if(matcher2.find()){
-            System.out.println(matcher2.group(0));
         }
     }
 }
